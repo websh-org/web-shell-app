@@ -1,0 +1,30 @@
+{
+  "name": "@websh/web-shell-app",
+  "version": "0.1.0",
+  "description": "Client library for WebShell apps",
+  "module": "web-shell-app.mjs",
+  "scripts": {
+    "build": "parcel build web-shell-app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websh-org/web-shell-app.git"
+  },
+  "keywords": [
+    "websh",
+    "webshell",
+    "message",
+    "channel",
+    "slave",
+    "port"
+  ],
+  "author": "Zoran Obradović",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/websh-org/web-shell-app/issues"
+  },
+  "homepage": "https://github.com/websh-org/web-shell-app#readme",
+  "dependencies": {
+    "@websh/remote-slave-port": "^0.1.0"
+  }
+}
