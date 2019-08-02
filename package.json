@@ -26,5 +26,9 @@
   "homepage": "https://github.com/websh-org/web-shell-app#readme",
   "dependencies": {
     "@websh/remote-slave-port": "^0.1.0"
-  }
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 Firefox versions"
+  ]
 }
