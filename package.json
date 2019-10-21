@@ -1,6 +1,6 @@
 {
   "name": "@websh/web-shell-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Client library for WebShell apps",
   "module": "web-shell-app.mjs",
   "repository": {
