@@ -3,9 +3,6 @@
   "version": "0.1.1",
   "description": "Client library for WebShell apps",
   "module": "web-shell-app.mjs",
-  "scripts": {
-    "build": "parcel build web-shell-app.mjs"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/websh-org/web-shell-app.git"
