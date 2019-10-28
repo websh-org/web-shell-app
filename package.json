@@ -26,7 +26,7 @@
     "@websh/remote-slave-port": "^0.1.5"
   },
   "browserslist": [
-    "last 1 Chrome versions",
-    "last 1 Firefox versions"
+    "last 2 Chrome versions",
+    "last 2 Firefox versions"
   ]
 }
