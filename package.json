@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git+https://github.com/websh-org/web-shell-app.git"
   },
+  "scripts": {
+    "build": "parcel build web-shell-app.mjs --out-dir dist --global WebShellApp"
+  },
   "keywords": [
     "websh",
     "webshell",

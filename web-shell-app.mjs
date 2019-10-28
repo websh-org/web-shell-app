@@ -1,5 +1,8 @@
 import { RemoteSlavePort } from "@websh/remote-slave-port";
 export const WebShellApp = new RemoteSlavePort('SOUTH-TOOTH');
+export const manifest = WebShellApp.manifest.bind(WebShellApp);
+export const command = WebShellApp.command.bind(WebShellApp);
+
 
 /**
  * Apps can override these
@@ -14,7 +17,7 @@ WebShellApp.command('proc-init',()=>true);
  * remote slave port is first connected.
  */
 window.addEventListener("load", ()=> {
-  document.body.addEventListener('focus', e=>{
+  document.addEventListener('focus', e=>{
     WebShellApp.lastActiveElement = e.target;
   },true)
   window.addEventListener('focus', e=>{
