@@ -2,6 +2,7 @@
   "name": "@websh/web-shell-app",
   "version": "0.1.3",
   "description": "Client library for WebShell apps",
+  "main": "dist/web-shell-app.js",
   "module": "web-shell-app.mjs",
   "repository": {
     "type": "git",
