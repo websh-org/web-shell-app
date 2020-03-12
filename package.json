@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/websh-org/web-shell-app#readme",
   "dependencies": {
-    "@websh/remote-slave-port": "^0.1.6"
+    "@websh/remote-slave-port": "file:../remote-slave-port"
   },
   "browserslist": [
     "last 2 Chrome versions",
